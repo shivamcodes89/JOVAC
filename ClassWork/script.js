@@ -138,3 +138,43 @@
 // }
 // grade(40);
 
+// function grade(number){
+//   if(number <= 100 && number > 80) return "A";
+//   if(number <= 80 && number > 60) return "B";
+//   if(number <= 60 && number > 50) return "C";
+//   if(number <= 50 && number > 40) return "D";
+//   if(number <= 40 && number >= 33) return "E";
+//   if(number < 33 && number >=0) return "fail";
+//   return "Invalid Input";
+// }
+// console.log(grade(40));
+
+
+//let day = 6;
+function whichDay(day){
+  switch(day){
+  case 1:
+    console.log("monday")
+    break;
+  case 2:
+    console.log("Tuesday")
+    break;
+  case 3:
+    console.log("wednesday")
+    break;
+  case 4:
+    console.log("thersday")
+    break;
+  case 5:
+    console.log("friday")
+    break;
+  case 6:
+    console.log("saturday")
+    break;
+  case 7:
+    console.log("sunday")
+    break;
+  default:
+     console.log("invalid day");
+}}
+whichDay(2);
