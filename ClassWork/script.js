@@ -52,6 +52,36 @@
 
 
 // Temporal Dead Zone
-console.log(a); // Cannot access 'a' before initialization
-let a = 12;
+// console.log(a); // Cannot access 'a' before initialization
+// let a = 12;
+
+// console.log(b);
+// var b = 12;
+
+// var c = 1;
+// {
+//   var c = 2;
+// }
+// console.log(c);
+
+// const person = {name: "Harsh"};
+// person.name = "Sharma" // allowed
+// person = {}; // not allowed
+
+
+// const person = {
+//   "name" : "harsh",
+//   "cource" : "MTech",
+//   "age" : 23
+// }
+
+// Object.freeze(person); // to freeze object after this change not allow
+
+// person.name = "Amit";
+// person.Income = "50K";
+// person.Gender = "male";
+
+// delete person.Gender;
+// console.log(person);
+
 
