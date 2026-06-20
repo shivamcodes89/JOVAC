@@ -101,3 +101,40 @@
 
 //     + - * / % ** = == === < > <= >= ! != !== !! && || ?:
 
+// let number = 32;
+// let print = number < 13 ? "greater" : "smaller";
+// console.log(print);
+
+// let number = 32;
+// console.log(number < 13 ? "greater" : "smaller");
+
+// let price = 20
+// let buy = price > 30 ? "Gold" : price > 20 ? "silver" : "brozen"
+// console.log(buy);
+
+
+// function grade(number){
+//   if(number <= 100 && number > 80){
+//     console.log("A");
+//   }
+//   else if(number <= 80 && number > 60){
+//     console.log("B");
+//   }
+//   else if(number <= 60 && number > 50){
+//     console.log("C");
+//   }
+//   else if(number <= 50 && number > 40){
+//     console.log("D");
+//   }
+//   else if(number <= 40 && number >= 33){
+//     console.log("E");
+//   }
+//   else if(number < 33 && number >=0){
+//     console.log("fail");
+//   }
+//   else{
+//     console.log("Invalid Input");
+//   }
+// }
+// grade(40);
+
