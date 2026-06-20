@@ -85,3 +85,19 @@
 // console.log(person);
 
 
+/// Data Types || Type System ////
+// 1. primitives => aisi value kisko copy karne par unki real value copy ho jaye
+                 // String, number, boolean, null, undefined, symbol, bigint
+
+// 2. Nonprimitives ya reference => inko copy karne par unki real copy nahi milti sirf unka refrence ya memory addrece milta hai
+                 // array, object, function
+
+
+
+// null ka matlab hai ki aapne jaan boojh kar koi value nahi di
+// undefined ka matlab hai ki aapne ek variable banaya aur value nahi di to jo value by default mili 
+
+// Dynamic Typing -> js mein static typic nahi hai and yaha par hai dynamic typing jisska matlab hai aap data ko change kar sakte ho kyuki yaha par dynamic data types hai.
+
+//     + - * / % ** = == === < > <= >= ! != !== !! && || ?:
+
